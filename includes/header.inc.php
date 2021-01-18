@@ -14,9 +14,17 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand">Sensor Pintu IoT</a>
-        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="input.php">Manual Input</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+  </div>
+  </nav>
   </div>
 </body>
 

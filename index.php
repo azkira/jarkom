@@ -32,6 +32,7 @@ include_once 'includes/header.inc.php';
               <tr>
                 <th scope="col">No</th>
                 <th scope="col">Date and Time</th>
+                <th scope="col">Actions</th>
               </tr>
             </thead>
             <?php
@@ -41,8 +42,10 @@ include_once 'includes/header.inc.php';
             ?>
                 <tbody>
                   <tr>
-                    <td><?php echo $i; $i++; ?></td>
+                    <td><?php echo $i;
+                        $i++; ?></td>
                     <td> Detected at <?php echo $row['status_time']; ?></td>
+                    <td><a href="includes/del.inc.php?status_id=<?php echo $row['status_id']; ?>" class="btn btn-warning btn-sm " role="button" aria-disabled="true">Delete</a></td>
                 </tbody>
             <?php
               }
