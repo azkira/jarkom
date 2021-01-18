@@ -21,7 +21,7 @@ include_once 'includes/header.inc.php';
             <input type="text" class="form-control" name="data">
             <div id="emailHelp" class="form-text">Masukkan data berupa data integer</div>
           </div>
-          <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" name="submit" class="btn btn-dark">Submit</button>
         </form>
       </div>
       <div class="col-4">
