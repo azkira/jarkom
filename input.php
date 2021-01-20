@@ -18,7 +18,7 @@ include_once 'includes/header.inc.php';
         <form method="post" action="includes/input.inc.php">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Data</label>
-            <input type="text" class="form-control" name="data">
+            <input type="text" class="form-control" name="status_data">
             <div id="emailHelp" class="form-text">Masukkan data berupa data integer</div>
           </div>
           <button type="submit" name="submit" class="btn btn-dark">Submit</button>
