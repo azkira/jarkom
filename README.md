@@ -1,5 +1,5 @@
 # jarkom
 
-clone di htdocs
+clone dalam folder htdocs
 
-file databasenya coba diimport
+file database dapat diimport
