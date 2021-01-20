@@ -21,11 +21,6 @@ include_once 'includes/header.inc.php';
         <?php
         $query = "SELECT * FROM stat;";
         $query_run = mysqli_query($conn, $query);
-        $data = "SELECT status_data FROM stat WHERE status_time = (SELECT MAX(status_time) FROM stat";
-        $storeIn = "INSERT INTO stat SET status_data ='" . $data . "'";
-        if ($data != 0) {
-          $result = mysqli_query($conn, $storeIn);
-        }
         ?>
 
 
