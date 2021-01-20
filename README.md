@@ -1,5 +1,5 @@
-# jarkom
+# Project IoT NodeMCU ESP8266 dengan Sensor Pir Hc-Sr501
 
-clone di htdocs
+clone dalam folder htdocs
 
-file databasenya coba diimport
+file database dapat diimport
