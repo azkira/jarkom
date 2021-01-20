@@ -21,6 +21,12 @@ include_once 'includes/header.inc.php';
         <?php
         $query = "SELECT * FROM stat;";
         $query_run = mysqli_query($conn, $query);
+
+        $result = mysqli_query($conn, "INSERT INTO datasensor (data) VALUES ('" . $_GET["data"] . "')");
+
+        if (!$result) {
+          die('Invalid query: ' . mysqli_error($conn));
+        }
         ?>
 
 
